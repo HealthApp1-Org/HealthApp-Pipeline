@@ -1,0 +1,18 @@
+Bitbucket is our Git repository management solution designed for professional teams. It gives you a central place to manage git repositories, collaborate on your source code and guide you through the development flow. It provides awesome features that include:
+Acces control to restrict access to your source code.
+Workflow control to enforce a project or team workflow.
+Pull requests with in-line commenting for collaboration on code review.
+Jira integration for full development traceability.
+Full Rest API to build features custom to your workflow if they are not already available from our Marketplace
+We offer three deployments options for Bitbucket. For an understanding of the basic differences between these deployment options, you can read our Pros and Cons of Cloud vs. Server or this article about Server vs. Data Center.
+Hence, the three deployment of Bitbucket offers different features that are summarized in this features comparison matrix: 
+
+Bitbucket Cloud is hosted on Atlassian's servers and accessed via a URL. Bitbucket Cloud has an exclusive built-in continuous integration tool, Pipelines, that enables you to build, test and deploy from directly within Bitbucket. You can learn more about Pipelines features and capabilities here. However, there are some restricted functions in Atlassian Cloud apps.
+
+Bitbucket Server is hosted on-premise, in your environment. Bitbucket Server does not come with a built-in testing and deployment tool, but it has strong integrations with Bamboo, our powerful continuous integration and continuous delivery tool that allows you to completely automate your build processes. There are also more apps available than for Cloud, and the license is perpetual.
+
+Bitbucket Data Center (our Enterprise offering) looks like a single instance of Bitbucket Server to users, but it is hosted on a number of servers in a cluster on your environment. This provides important benefits over Bitbucket Server:
+
+Performance at scale: A cluster of many machines running Bitbucket Server can handle more load than a single machine.
+High Availability: If one cluster node goes down, then the remaining cluster node(s) can continue servicing requests so users should see little or no loss of availability. 
+Smart mirroring: Smart Mirroring can improve Git clone speeds for distributed teams working with large repositories.
